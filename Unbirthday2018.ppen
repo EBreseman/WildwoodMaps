@@ -1,0 +1,138 @@
+﻿<course-scribe-event>
+  <event id="1">
+    <title>Summer Party 06/23/2018</title>
+    <map kind="OCAD" scale="5000" ignore-missing-fonts="false" absolute-path="C:\Users\Rick\Desktop\WildwoodMaps\WW062118.omap">WW062118.omap</map>
+    <standards map="2017" description="2004" />
+    <all-controls print-scale="3000" description-kind="symbols" />
+    <print-area automatic="false" restrict-to-page-size="true" left="-139.9797" top="116.804192" right="-10.4396973" bottom="-50.8358231" page-width="850" page-height="1100" page-margins="0" page-landscape="false" />
+    <numbering start="31" disallow-invertible="false" />
+    <punch-card rows="3" columns="8" left-to-right="true" top-to-bottom="false" />
+    <course-appearance scale-sizes="RelativeToMap" auto-leg-gap-size="3.5" blend-purple="true" />
+    <descriptions lang="en" color="black" />
+    <ocad overprint-colors="false" />
+  </event>
+  <control id="1" kind="start">
+    <location x="-89.86661" y="106.080421" />
+    <description box="D" iof-2004-ref="2.4" />
+    <description box="G" iof-2004-ref="11.1W" />
+  </control>
+  <control id="2" kind="finish">
+    <location x="-84.64211" y="103.748833" />
+    <description box="all" iof-2004-ref="14.3" />
+  </control>
+  <control id="3" kind="normal">
+    <code>A</code>
+    <location x="-116.093475" y="85.0776138" />
+    <description box="D" iof-2004-ref="5.2" />
+    <description box="F" iof-2004-ref="10.2" />
+    <description box="G" iof-2004-ref="11.1N" />
+  </control>
+  <control id="4" kind="normal">
+    <code>B</code>
+    <location x="-114.623932" y="59.7564049" />
+    <description box="D" iof-2004-ref="1.10" />
+    <description box="G" iof-2004-ref="11.2W" />
+  </control>
+  <control id="5" kind="normal">
+    <code>C</code>
+    <location x="-115.590317" y="23.60858" />
+    <description box="D" iof-2004-ref="4.7" />
+    <description box="G" iof-2004-ref="11.3S" />
+  </control>
+  <control id="6" kind="normal">
+    <code>D</code>
+    <location x="-99.787796" y="-45.5603256" />
+    <description box="D" iof-2004-ref="6.2" />
+    <description box="G" iof-2004-ref="11.1S" />
+    <gaps scale="3000">11111111111111111111111000001111</gaps>
+    <circle-gaps scale="3000">45.5667725:102.943253</circle-gaps>
+  </control>
+  <control id="7" kind="normal">
+    <code>E</code>
+    <location x="-77.5950546" y="-12.6597738" />
+    <description box="D" iof-2004-ref="2.4" />
+  </control>
+  <control id="8" kind="normal">
+    <code>F</code>
+    <location x="-38.72814" y="-6.48352432" />
+    <description box="D" iof-2004-ref="5.2" />
+    <description box="G" iof-2004-ref="11.7" />
+  </control>
+  <control id="9" kind="normal">
+    <code>H</code>
+    <location x="-43.39932" y="57.1135445" />
+    <description box="D" iof-2004-ref="3.7" />
+    <description box="G" iof-2004-ref="11.2NE" />
+  </control>
+  <control id="10" kind="normal">
+    <code>I</code>
+    <location x="-63.63448" y="106.295181" />
+    <description box="D" iof-2004-ref="5.2" />
+    <description box="F" iof-2004-ref="10.2" />
+    <description box="G" iof-2004-ref="11.1NE" />
+  </control>
+  <control id="11" kind="normal">
+    <code>G</code>
+    <location x="-24.10187" y="8.401613" />
+    <description box="D" iof-2004-ref="4.9" />
+    <description box="G" iof-2004-ref="11.1NE" />
+  </control>
+  <course id="1" kind="normal" order="1">
+    <name>Unbirthday</name>
+    <labels label-kind="sequence" />
+    <first course-control="1" />
+    <print-area automatic="false" restrict-to-page-size="true" left="-139.9797" top="116.804192" right="-10.4396973" bottom="-50.8358231" page-width="850" page-height="1100" page-margins="0" page-landscape="false" />
+    <options print-scale="3000" climb="70" description-kind="symbols" />
+  </course>
+  <course-control id="1" control="1">
+    <next course-control="3" />
+  </course-control>
+  <course-control id="2" control="2" />
+  <course-control id="3" control="3">
+    <next course-control="4" />
+    <number-location x="-4.86473846" y="0.3542099" />
+  </course-control>
+  <course-control id="4" control="4">
+    <next course-control="5" />
+    <number-location x="-4.46015167" y="5.6087" />
+  </course-control>
+  <course-control id="5" control="5">
+    <next course-control="6" />
+  </course-control>
+  <course-control id="6" control="6">
+    <next course-control="7" />
+    <number-location x="-4.76091766" y="6.4787674" />
+  </course-control>
+  <course-control id="7" control="7">
+    <next course-control="8" />
+  </course-control>
+  <course-control id="8" control="8">
+    <next course-control="13" />
+  </course-control>
+  <course-control id="9" control="10">
+    <next course-control="2" />
+  </course-control>
+  <course-control id="13" control="11">
+    <next course-control="11" />
+  </course-control>
+  <course-control id="11" control="9">
+    <next course-control="9" />
+  </course-control>
+  <leg id="1" start-control="6" end-control="7">
+    <gaps>
+      <gap start="21.3843689" length="13.3130226" />
+    </gaps>
+  </leg>
+  <leg id="2" start-control="4" end-control="5">
+    <gaps>
+      <gap start="22.8471031" length="6.17217445" />
+    </gaps>
+  </leg>
+  <special-object id="1" kind="descriptions">
+    <location x="-35.81488" y="81.22429" />
+    <location x="-32.92946" y="81.22429" />
+    <courses>
+      <course course="1" />
+    </courses>
+  </special-object>
+</course-scribe-event>
